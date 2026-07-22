@@ -1,10 +1,474 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Website</title>
-  </head>
-  <body>
-    <h1>Hello! 👋</h1>
-    <p>Welcome to my GitHub Pages site</p>
-  </body>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Madhav Ranjan | Vintage Artist Journal</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lora:wght@400;700&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+min-height:100vh;
+background:#e8dcc7;
+font-family:Lora,serif;
+color:#3b2f2f;
+display:flex;
+align-items:center;
+justify-content:center;
+overflow-x:hidden;
+}
+
+/* Paper texture */
+body:before{
+content:"";
+position:fixed;
+inset:0;
+background:
+radial-gradient(#b89b70 1px,transparent 1px);
+background-size:25px 25px;
+opacity:.25;
+}
+
+
+/* Ink effects */
+
+.ink{
+position:absolute;
+border-radius:50%;
+opacity:.25;
+animation:float 10s infinite alternate;
+}
+
+.i1{
+width:300px;
+height:300px;
+background:#8b5e3c;
+top:-100px;
+left:-100px;
+}
+
+.i2{
+width:220px;
+height:220px;
+background:#c89b6d;
+right:-70px;
+bottom:-50px;
+}
+
+
+@keyframes float{
+to{
+transform:translateY(-50px);
+}
+}
+
+
+/* Journal */
+
+.book{
+
+position:relative;
+width:90%;
+max-width:900px;
+
+background:#fdf8ef;
+
+padding:55px;
+
+border-radius:15px;
+
+box-shadow:
+0 30px 70px rgba(0,0,0,.25);
+
+animation:open 1.5s ease;
+
+}
+
+
+@keyframes open{
+
+from{
+opacity:0;
+transform:rotateX(70deg);
+}
+
+to{
+opacity:1;
+transform:none;
+}
+
+}
+
+
+/* Header */
+
+
+h1{
+
+font-family:Caveat,cursive;
+
+font-size:90px;
+
+text-align:center;
+
+}
+
+
+.quote{
+
+text-align:center;
+
+font-style:italic;
+
+font-size:20px;
+
+color:#665;
+
+margin:15px;
+
+}
+
+
+
+.seal{
+
+width:90px;
+
+height:90px;
+
+margin:30px auto;
+
+border-radius:50%;
+
+background:#8b3a2e;
+
+color:white;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-family:Caveat;
+
+font-size:35px;
+
+box-shadow:0 10px 20px rgba(0,0,0,.2);
+
+animation:pulse 3s infinite;
+
+}
+
+
+
+@keyframes pulse{
+
+50%{
+transform:scale(1.1) rotate(10deg);
+}
+
+}
+
+
+
+/* Sections */
+
+
+.entry{
+
+margin-top:40px;
+
+border-left:4px solid #b08968;
+
+padding-left:25px;
+
+}
+
+
+h2{
+
+font-family:Caveat,cursive;
+
+font-size:45px;
+
+}
+
+
+p{
+
+line-height:1.8;
+
+color:#555;
+
+}
+
+
+
+/* Timeline */
+
+.item{
+
+margin:15px 0;
+
+padding:15px;
+
+background:#f3e4c8;
+
+border-radius:12px;
+
+}
+
+
+
+/* Gallery */
+
+.gallery{
+
+display:flex;
+
+gap:15px;
+
+flex-wrap:wrap;
+
+margin-top:20px;
+
+}
+
+
+.photo{
+
+height:120px;
+
+flex:1;
+
+min-width:150px;
+
+background:#ddc7a1;
+
+border-radius:15px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-family:Caveat;
+
+font-size:30px;
+
+transition:.4s;
+
+}
+
+
+.photo:hover{
+
+transform:rotate(-5deg) scale(1.05);
+
+}
+
+
+
+/* Links */
+
+.links{
+
+text-align:center;
+
+margin-top:35px;
+
+}
+
+
+.links a{
+
+display:inline-block;
+
+background:#3b2f2f;
+
+color:white;
+
+text-decoration:none;
+
+padding:13px 25px;
+
+border-radius:25px;
+
+margin:5px;
+
+transition:.3s;
+
+}
+
+
+.links a:hover{
+
+background:#b08968;
+
+transform:translateY(-8px);
+
+}
+
+
+
+.signature{
+
+font-family:Caveat;
+
+font-size:45px;
+
+text-align:right;
+
+margin-top:30px;
+
+}
+
+
+
+@media(max-width:600px){
+
+.book{
+padding:30px;
+}
+
+h1{
+font-size:60px;
+}
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="ink i1"></div>
+<div class="ink i2"></div>
+
+
+
+<div class="book">
+
+
+<h1>Madhav Ranjan</h1>
+
+
+<div class="quote">
+"Every idea begins as a small sketch in the mind."
+</div>
+
+
+
+<div class="seal">
+M
+</div>
+
+
+
+<div class="entry">
+
+<h2>My Story</h2>
+
+<p>
+Welcome to my creative journal where ideas,
+experiences and imagination come together.
+</p>
+
+</div>
+
+
+
+
+<div class="entry">
+
+<h2>My Journey</h2>
+
+
+<div class="item">
+Chapter 01 — Learning & Exploring
+</div>
+
+<div class="item">
+Chapter 02 — Creating New Ideas
+</div>
+
+<div class="item">
+Chapter 03 — Building My Future
+</div>
+
+
+</div>
+
+
+
+
+<div class="entry">
+
+<h2>Gallery</h2>
+
+
+<div class="gallery">
+
+<div class="photo">
+Idea
+</div>
+
+<div class="photo">
+Vision
+</div>
+
+<div class="photo">
+Dream
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+<div class="links">
+
+<a href="https://instagram.com/madhav.ranjan_">
+Instagram
+</a>
+
+<a href="https://t.me/madhav_ranjan">
+Telegram
+</a>
+
+<a href="https://twitter.com/madhav_ranjan_">
+Twitter
+</a>
+
+</div>
+
+
+
+<div class="signature">
+— Madhav
+</div>
+
+
+</div>
+
+
+</body>
 </html>
