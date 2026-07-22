@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Madhav Ranjan | Portfolio</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<link rel="preconnect" href="https://googleapis.com">
+<link rel="preconnect" href="https://gstatic.com" crossorigin>
+<link href="https://googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<nav class="nav glass">
+    <h2>Madhav</h2>
+
+    <div class="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+
+<section class="hero">
+
+<div class="hero-card glass">
+
+<h1>
+<span id="typing"></span>
+</h1>
+
+<p>
+Creative Developer • Designer • Digital Explorer
+</p>
+
+<div class="socials">
+
+<a href="https://instagram.com_">
+Instagram
+</a>
+
+<a href="#">
+Telegram
+</a>
+
+<a href="#">
+Twitter/X
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="about" class="section glass">
+
+<h2>About Me</h2>
+
+<p>
+Hi, I'm Madhav Ranjan. This is my personal digital space where
+I showcase my creativity, skills and journey.
+</p>
+
+</section>
+
+
+
+<section id="skills" class="section glass">
+
+<h2>Skills</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Frontend</h3>
+<p>HTML • CSS • JavaScript</p>
+</div>
+
+
+<div class="card">
+<h3>Design</h3>
+<p>UI/UX • Glassmorphism • Animations</p>
+</div>
+
+
+<div class="card">
+<h3>Creative</h3>
+<p>Ideas • Branding • Digital Experience</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="journey" class="section glass">
+
+<h2>My Journey</h2>
+
+<p>
+Learning, improving and building new things every day.
+</p>
+
+</section>
+
+
+
+<section id="contact" class="section glass">
+
+<h2>Contact</h2>
+
+<p>
+Instagram: madhav.ranjan_
+</p>
+
+<p>
+Telegram: madhav_ranjan
+</p>
+
+<p>
+Twitter/X: madhav_ranjan_
+</p>
+
+</section>
+
+
+
+<footer>
+
+<p>
+© 2026 Madhav Ranjan
+</p>
+
+</footer>
+
+
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
